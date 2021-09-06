@@ -34,6 +34,7 @@ class arrayptr{
 };
 int main(){
     int count;
+    point a;
     cout<<"输入点的个数"<<endl;
     cin>>count;
     arrayptr ps(count);
