@@ -8,11 +8,15 @@
 		},
 		{
 			"path": "Cpp_Single"
+		},
+		{
+			"path": "C:\\Users\\niezhiwei\\Desktop\\临时笔记文件"
 		}
 	],
 	"settings": {
 		"files.associations": {
-			"ostream": "cpp"
+			"ostream": "cpp",
+			"iosfwd": "cpp"
 		}
 	}
 }
