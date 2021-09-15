@@ -1,20 +1,22 @@
 #include <iostream>
-using namespace std;
+#include <vector>
 
 int main(){
-    double m=0;
-    double i , x=0,y=0;
-    for( i=0;i<60000;i++)
+    const int upper=10;
+    std::vector<int> testarray;
+    testarray.push_back(5);
+    testarray.push_back(6);
+    for (auto it=testarray.begin();it !=testarray.end();++it)//1
     {
-        x=rand()/double(RAND_MAX);
-        y=rand()/double(RAND_MAX);
-      //  cout<<x<<endl;
-      //  cout<<y<<endl;
-        if( (((x-0.5)*(x-0.5)+(y-0.5)*(y-0.5))<=0.25)&&(x*x+y*y>1) )
+        if(*it<upper)
         {
-            m++;
+            testarray.push_back(upper - *it);
         }
+
     }
-    cout<<(m/i)<<endl;
+    for(auto &test:testarray)//2
+    {
+        std::cout<<test<<std::endl;
+    }
     return 0;
 }

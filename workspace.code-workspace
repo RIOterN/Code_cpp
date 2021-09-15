@@ -11,12 +11,18 @@
 		},
 		{
 			"path": "C:\\Users\\niezhiwei\\Desktop\\临时笔记文件"
+		},
+		{
+			"path": "C:\\Users\\niezhiwei\\Desktop\\听写"
 		}
 	],
 	"settings": {
 		"files.associations": {
 			"ostream": "cpp",
-			"iosfwd": "cpp"
+			"iosfwd": "cpp",
+			"string": "cpp",
+			"*.tcc": "cpp",
+			"iostream": "cpp"
 		}
 	}
 }
